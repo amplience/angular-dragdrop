@@ -156,7 +156,7 @@
                                 }
                             }
                         });
-                    } else if (attrs.dragImageElementId) {
+                    } else if (attrs.dragImageElementId && hasNativeDraggable) {
                         setDragElement(e, attrs.dragImageElementId);
                     }
 
